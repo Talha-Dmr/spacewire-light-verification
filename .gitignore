@@ -1,0 +1,22 @@
+# build products
+tb/sim_build*/
+tb/results*.xml
+tb/dump.ghw
+tb/*.vcd
+tb/*.o
+tb/e~*
+tb/spwstream
+tb/tb_top
+tb/__pycache__/
+tb/.pytest_cache/
+formal/spwlink/
+formal/spwlink_bmc/
+formal/spwlink_bmc3/
+formal/spwlink_cover/
+formal/spwlink_prove/
+formal/spwlink_pdr/
+formal/*.log
+# external: DUT clone, toolchain, venv (created by setup.sh)
+spacewire_light
+tools
+.venv
